@@ -16,7 +16,7 @@
   background-repeat: no-repeat;
 }
 
-.text {
+.main-text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -27,7 +27,7 @@
 /* /photo container */
 
 /*  rome */
-.rome {
+.rome-img {
   background-image: url(../img/rome.jpg);
 }
 
@@ -35,22 +35,48 @@
   padding: 30px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.rome-text:hover {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
 /* / rome */
 
 /* amsterdam */
-.amsterdam {
+.amsterdam-img {
   background-image: url(../img/amsterdam.jpg);
 }
 
-.overlay {
+.overlay-amst {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+.amst-text:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 /* /amsterdam */
 
 /* tokyo */
-.tokyo {
+.tokyo-img {
   background-image: url(../img/tokyo.jpg);
+}
+
+.overlay-tokyo {
+  width: 100%;
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.overlay-tokyo:hover {
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 /* /tokyo */
