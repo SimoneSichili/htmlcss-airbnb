@@ -8,6 +8,7 @@
 
 /* photo container */
 .photo-cont {
+  position: relative;
   width: 100%;
   height: 100vh;
   background-size: cover;
@@ -15,14 +16,41 @@
   background-repeat: no-repeat;
 }
 
-.photo-cont:first-child {
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  color: white;
+}
+/* /photo container */
+
+/*  rome */
+.rome {
   background-image: url(../img/rome.jpg);
 }
 
-.photo-cont:nth-child(2) {
+.rome-text {
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* / rome */
+
+/* amsterdam */
+.amsterdam {
   background-image: url(../img/amsterdam.jpg);
 }
 
-.photo-cont:last-child {
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+/* /amsterdam */
+
+/* tokyo */
+.tokyo {
   background-image: url(../img/tokyo.jpg);
 }
+/* /tokyo */
