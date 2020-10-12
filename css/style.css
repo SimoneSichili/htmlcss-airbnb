@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------- */
+
+/* photo container */
+.photo-cont {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-cont:first-child {
+  background-image: url(../img/rome.jpg);
+}
+
+.photo-cont:nth-child(2) {
+  background-image: url(../img/amsterdam.jpg);
+}
+
+.photo-cont:last-child {
+  background-image: url(../img/tokyo.jpg);
+}
