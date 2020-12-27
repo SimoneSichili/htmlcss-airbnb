@@ -1,5 +1,5 @@
 # AirBnb images replica
-> A simulation of shop static layout
+> Style replica of AirBnb images
 
 ## Screenshoot
 ![AirBnb-screenshoot](https://i.imgur.com/pGYVqNF.jpg)
